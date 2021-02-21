@@ -23,7 +23,7 @@ const Header = (props) => {
                 <li><a href="#process">Process</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
+                {/* <li><a href="#blog">Blog</a></li> */}
                 {/* <li className="drop-down"><a href="">Drop Down</a>
                   <ul>
                     <li><a href="#">Drop Down 1</a></li>

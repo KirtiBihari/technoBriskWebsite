@@ -25,7 +25,7 @@ const MainContent = (props) => {
           <Portfolio />
           <Price />
           <Testimonials />
-          <Blog />
+          {/* <Blog /> */}
           <Contact />
         </div>
     );
