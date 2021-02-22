@@ -1,9 +1,3 @@
-/**
-* Template Name: eBusiness - v2.2.1
-* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 @charset "UTF-8";
 /*--------------------------------------------------------------
@@ -171,7 +165,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.gif") no-repeat center center;
+  background: #fff url("assets/images/preloader.gif") no-repeat center center;
 }
 
 ::-moz-selection {
@@ -280,7 +274,7 @@ div#preloader {
 }
 
 .header-bg {
-  background: url(../img/slider/slider1.jpg);
+  background: url(assets/images/slider/slider1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -708,7 +702,7 @@ preview-1
 ---------------------------------------- */
 .preview-1 .nivoSlider {
   position: relative;
-  background: url(../lib/nivo-slider/img/loading.gif) no-repeat 50% 50%;
+  background: url(assets/vendor/nivo-slider/img/loading.gif) no-repeat 50% 50%;
 }
 
 .preview-1 .nivoSlider img {
@@ -732,7 +726,7 @@ preview-1
   display: inline-block;
   width: 22px;
   height: 22px;
-  background: url(../lib/nivo-slider/img/bullets.png) no-repeat;
+  background: url(assets/vendor/nivo-slider/img/bullets.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   margin: 0 2px;
@@ -746,7 +740,7 @@ preview-1
   display: block;
   width: 30px;
   height: 30px;
-  background: url(../lib/nivo-slider/img/arrows.png) no-repeat;
+  background: url(assets/vendor/nivo-slider/img/arrows.png) no-repeat;
   text-indent: -9999px;
   border: 0;
   opacity: 0;
@@ -978,7 +972,7 @@ preview-2
 }
 
 .our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg") no-repeat fixed center top/cover;
+  background: rgba(248, 248, 248, 0.8) url("assets/images/background/bg1.jpg") no-repeat fixed center top/cover;
 }
 
 .test-overly {
@@ -1006,7 +1000,7 @@ preview-2
 }
 
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("assets/images/team/1.jpg") repeat scroll 0 0;
   content: "";
   display: block;
   height: 100%;
@@ -1194,7 +1188,7 @@ preview-2
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
-  background: url(../img/background/bg1.jpg);
+  background: url(assets/images/background/bg1.jpg);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1526,7 +1520,7 @@ preview-2
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top/cover;
+  background: rgba(0, 0, 0, 0) url("assets/images/background/slider1.jpg") no-repeat fixed center top/cover;
   height: auto;
   width: 100%;
 }
