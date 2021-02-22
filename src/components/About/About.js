@@ -30,27 +30,27 @@ const About = (props) => {
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <div className="well-middle">
                                 <div className="single-well">
-                                    <a href="#">
+                                    {/* <a href="#">
                                         <h4 className="sec-head">project Maintenance</h4>
-                                    </a>
+                                    </a> */}
                                     <p>
-                                        Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
+                                   TechnoBrisk aims on building excellent digital solutions by supplying IT Solutions and Training to empower and establish a Brand New Destination of Digital existence of the potential customers. Our work involves regressive working on dynamic concepts of Marketing, Back and Front End Development and psychology to yield premium outcomes.
                                     </p>
                                     <ul>
                                         <li>
-                                        <i className="fa fa-check"></i> Interior design Package
+                                        <i className="fa fa-check"></i> Statergy
                                         </li>
                                         <li>
-                                        <i className="fa fa-check"></i> Building House
+                                        <i className="fa fa-check"></i> Design
                                         </li>
                                         <li>
-                                        <i className="fa fa-check"></i> Reparing of Residentail Roof
+                                        <i className="fa fa-check"></i> Development
                                         </li>
                                         <li>
-                                        <i className="fa fa-check"></i> Renovaion of Commercial Office
+                                        <i className="fa fa-check"></i> Help & Supports
                                         </li>
                                         <li>
-                                        <i className="fa fa-check"></i> Make Quality Products
+                                        <i className="fa fa-check"></i> Training
                                         </li>
                                     </ul>
                                 </div>

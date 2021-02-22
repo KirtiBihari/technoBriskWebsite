@@ -24,9 +24,9 @@ const Services = (props) => {
                                 <a className="services-icon" href="#">
                                     <i className="fa fa-code"></i>
                                 </a>
-                                <h4>Expert Coder</h4>
+                                <h4>Web Development</h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                We use powerful tools to provide your business goals the extra edge it truly deserves, and getting your establishment right at the tip of your fingers!.
                                 </p>
                             </div>
                         </div>
@@ -39,9 +39,9 @@ const Services = (props) => {
                                 <a className="services-icon" href="#">
                                     <i className="fa fa-camera-retro"></i>
                                 </a>
-                                <h4>Creative Designer</h4>
+                                <h4>UI/UX Design</h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                ​A simple and sophisticated UI design requires an eye for detail.​An accessible aesthetic design backed by a technical architecture will translate into a user-friendly and engaging interface that will augment the usability of the product.​
                                 </p>
                             </div>
                         </div>
@@ -52,11 +52,11 @@ const Services = (props) => {
                         <div className="services-details">
                             <div className="single-services">
                                 <a className="services-icon" href="#">
-                                    <i className="fa fa-wordpress"></i>
+                                    <i className="fa fa-mobile"></i>
                                 </a>
-                                <h4>Wordpress Developer</h4>
+                                <h4>Mobile App Development</h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                A fully functional app that your customers can't stop raving about. We build the following app React Native apps build cross-platform apps and save 30-50% on development costs.
                                 </p>
                             </div>
                         </div>
@@ -67,11 +67,11 @@ const Services = (props) => {
                         <div className="services-details">
                             <div className="single-services">
                                 <a className="services-icon" href="#">
-                                    <i className="fa fa-camera-retro"></i>
+                                    <i className="fa fa-check-square"></i>
                                 </a>
-                                <h4>Social Marketer </h4>
+                                <h4>Quality Assurance </h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                Our QA is implemented from the word go Our QA team is geared to:​Monitor the development process and ensure the product meets all the initial requirements.
                                 </p>
                             </div>
                         </div>
@@ -84,9 +84,9 @@ const Services = (props) => {
                                 <a className="services-icon" href="#">
                                     <i className="fa fa-bar-chart"></i>
                                 </a>
-                                <h4>Seo Expart</h4>
+                                <h4>Dashboards</h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                Dashboards are easy to create, customize and share. You can also send a snapshot of your Dashboard data via email or generate a PDF file that you can distribute however you please.​​
                                 </p>
                             </div>
                         </div>
@@ -97,11 +97,11 @@ const Services = (props) => {
                         <div className="services-details">
                             <div className="single-services">
                                 <a className="services-icon" href="#">
-                                    <i className="fa fa-ticket"></i>
+                                    <i className="fa fa-pencil-square-o"></i>
                                 </a>
-                                <h4>24/7 Support</h4>
+                                <h4>Training</h4>
                                 <p>
-                                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                                We offer online classes using technology expertise with the best online training delivery methodology.Our trainers are committed to providing training based on latest skills and share real-time work scenario.
                                 </p>
                             </div>
                         </div>

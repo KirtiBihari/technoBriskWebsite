@@ -20,10 +20,10 @@ const MainContent = (props) => {
           <Services />
           <OurProcess />
           <OurSkill />
-          <Team />
+          {/* <Team />
           <Review />
           <Portfolio />
-          <Price />
+          <Price /> */}
           <Testimonials />
           {/* <Blog /> */}
           <Contact />
