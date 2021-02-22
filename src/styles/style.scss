@@ -93,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: #80241e;
+  color: $font-color1;
   text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ a:active, a:hover {
 }
 
 body {
-  background: #fff none repeat scroll 0 0;
+  background: $font-color2 none repeat scroll 0 0;
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -115,8 +115,8 @@ body {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #80241e;
-  color: #fff;
+  background: $font-color1;
+  color: $font-color2;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -132,14 +132,14 @@ body {
 }
 
 .back-to-top:focus {
-  background: #80241e;
-  color: #fff;
+  background: $font-color1;
+  color: $font-color2;
   outline: none;
 }
 
 .back-to-top:hover {
   background: #3cd6ed;
-  color: #fff;
+  color: $font-color2;
 }
 
 .clear {
@@ -165,16 +165,16 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("assets/images/preloader.gif") no-repeat center center;
+  background: $font-color2 url("assets/images/preloader.gif") no-repeat center center;
 }
 
 ::-moz-selection {
-  background: #80241e;
+  background: $font-color1;
   text-shadow: none;
 }
 
 ::selection {
-  background: #80241e;
+  background: $font-color1;
   text-shadow: none;
 }
 
@@ -247,11 +247,11 @@ div#preloader {
 }
 
 #header .logo h1 span {
-  color: #80241e;
+  color: $font-color1;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: $font-color2;
   text-decoration: none;
 }
 
@@ -322,7 +322,7 @@ div#preloader {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #80241e;
+  color: $font-color1;
   text-decoration: none;
 }
 
@@ -335,7 +335,7 @@ div#preloader {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: $font-color2;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -360,7 +360,7 @@ div#preloader {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .nav-menu .drop-down > a:after {
@@ -420,7 +420,7 @@ div#preloader {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: $font-color2;
 }
 
 .mobile-nav {
@@ -431,7 +431,7 @@ div#preloader {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: $font-color2;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -455,7 +455,7 @@ div#preloader {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #80241e;
+  color: $font-color1;
   text-decoration: none;
 }
 
@@ -507,14 +507,14 @@ div#preloader {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: $font-color2;
 }
 
 /*--------------------------------------------------------------
 # Slider
 --------------------------------------------------------------*/
 .slider-area {
-  color: #fff;
+  color: $font-color2;
   position: relative;
   text-align: center;
 }
@@ -540,13 +540,13 @@ div#preloader {
 }
 
 .layer-1-1 h2 {
-  color: #fff;
+  color: $font-color2;
   font-size: 32px;
   font-weight: 700;
 }
 
 .layer-1-2 h1 {
-  color: #fff;
+  color: $font-color2;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -557,9 +557,9 @@ div#preloader {
 }
 
 .layer-1-3 a.ready-btn {
-  border: 1px solid #fff;
+  border: 1px solid $font-color2;
   border-radius: 30px;
-  color: #fff;
+  color: $font-color2;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -573,21 +573,21 @@ div#preloader {
 }
 
 .layer-1-3 a.ready-btn:hover {
-  color: #fff;
-  background: #80241e;
-  border: 1px solid #80241e;
+  color: $font-color2;
+  background: $font-color1;
+  border: 1px solid $font-color1;
   text-decoration: none;
 }
 
 .ready-btn.right-btn {
   margin-right: 15px;
-  background: #80241e;
-  border: 1px solid #80241e !important;
+  background: $font-color1;
+  border: 1px solid $font-color1 !important;
 }
 
 .ready-btn.right-btn:hover {
   background: transparent !important;
-  border: 1px solid #fff !important;
+  border: 1px solid $font-color2 !important;
 }
 
 .nivo-controlNav {
@@ -604,7 +604,7 @@ div#preloader {
 
 .nivo-controlNav a {
   background: transparent none repeat scroll 0 0;
-  border: 2px solid #fff;
+  border: 2px solid $font-color2;
   box-shadow: none;
   display: inline-block;
   font-size: 0;
@@ -618,8 +618,8 @@ div#preloader {
 }
 
 .nivo-controlNav a:hover, .nivo-controlNav a.active {
-  background: #fff none repeat scroll 0 0;
-  border-color: #80241e;
+  background: $font-color2 none repeat scroll 0 0;
+  border-color: $font-color1;
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -768,12 +768,12 @@ preview-1
 }
 
 .preview-1 .nivo-caption a {
-  color: #fff;
-  border-bottom: 1px dotted #fff;
+  color: $font-color2;
+  border-bottom: 1px dotted $font-color2;
 }
 
 .preview-1 .nivo-caption a:hover {
-  color: #fff;
+  color: $font-color2;
 }
 
 .preview-1 .nivo-controlNav.nivo-thumbs-enabled {
@@ -800,7 +800,7 @@ preview-1
 }
 
 .preview-1 .nivo-controlNav a {
-  border: 5px solid #fff;
+  border: 5px solid $font-color2;
   display: inline-block;
   height: 18px;
   margin: 0 5px;
@@ -847,7 +847,7 @@ preview-2
 
 .preview-2 .nivo-directionNav a.nivo-prevNav::before {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #ffffff;
+  color: $font-color2;
   content: "";
   cursor: pointer;
   font: 300 50px/50px FontAwesome;
@@ -859,22 +859,22 @@ preview-2
   font-weight: 100;
   left: 0px;
   width: 50px;
-  border: 1px solid #fff;
+  border: 1px solid $font-color2;
   border-radius: 50%;
   font-size: 30px;
 }
 
 .preview-2 .nivo-directionNav a.nivo-nextNav:hover:before, .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
-  border-color: #80241e;
-  color: #fff;
-  background: #80241e;
+  border-color: $font-color1;
+  color: $font-color2;
+  background: $font-color1;
 }
 
 .preview-2 .nivo-directionNav a.nivo-nextNav::before {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
+  border: 1px solid $font-color2;
   border-radius: 50%;
-  color: #ffffff;
+  color: $font-color2;
   content: "";
   cursor: pointer;
   font: 100 30px/50px FontAwesome;
@@ -912,7 +912,7 @@ preview-2
 }
 
 .single-well ul li i {
-  color: #80241e;
+  color: $font-color1;
   padding-right: 10px;
   font-size: 12px;
 }
@@ -942,7 +942,7 @@ preview-2
 }
 
 .services-details:hover h4, .services-details:hover .services-icon {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .row.second-row {
@@ -983,7 +983,7 @@ preview-2
 }
 
 .progress-h4 {
-  color: #fff;
+  color: $font-color2;
   font-weight: 500;
 }
 
@@ -1027,14 +1027,14 @@ preview-2
 }
 
 .team-left-text h4 {
-  color: #fff;
+  color: $font-color2;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .team-left-text p {
-  color: #fff;
+  color: $font-color2;
   font-size: 17px;
   line-height: 26px;
 }
@@ -1049,8 +1049,8 @@ preview-2
 
 .email-news .email_button input {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid $font-color2;
+  color: $font-color2;
   float: left;
   font-size: 13px;
   padding: 8px;
@@ -1059,8 +1059,8 @@ preview-2
 
 .email-news .email_button > button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid $font-color2;
+  color: $font-color2;
   float: left;
   font-size: 16px;
   padding: 8px 12px;
@@ -1068,9 +1068,9 @@ preview-2
 }
 
 .email-news .email_button > button:hover {
-  background: #80241e;
-  border: 1px solid #fff;
-  color: #fff;
+  background: $font-color1;
+  border: 1px solid $font-color2;
+  color: $font-color2;
 }
 
 .team-left-icon ul li {
@@ -1078,14 +1078,14 @@ preview-2
 }
 
 .team-left-icon ul li a:hover {
-  color: #80241e;
-  background: #fff;
-  border: 2px solid #fff;
+  color: $font-color1;
+  background: $font-color2;
+  border: 2px solid $font-color2;
 }
 
 .team-left-icon ul li a {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid $font-color2;
+  color: $font-color2;
   display: block;
   font-size: 16px;
   height: 40px;
@@ -1142,9 +1142,9 @@ preview-2
 }
 
 .team-social-icon ul li a {
-  border: 1px solid #fff;
+  border: 1px solid $font-color2;
   border-radius: 50%;
-  color: #fff;
+  color: $font-color2;
   display: block;
   font-size: 14px;
   height: 34px;
@@ -1154,9 +1154,9 @@ preview-2
 }
 
 .team-social-icon ul li a:hover {
-  color: #fff;
-  border: 1px solid #80241e;
-  background: #80241e;
+  color: $font-color2;
+  border: 1px solid $font-color1;
+  background: $font-color1;
 }
 
 .team-content {
@@ -1200,7 +1200,7 @@ preview-2
 }
 
 .work-left-text {
-  background: #80241e none repeat scroll 0 0;
+  background: $font-color1 none repeat scroll 0 0;
 }
 
 .work-right-text {
@@ -1208,13 +1208,13 @@ preview-2
 }
 
 .work-right-text h2 {
-  color: #fff;
+  color: $font-color2;
   text-transform: uppercase;
   font-size: 24px;
 }
 
 .work-right-text h5 {
-  color: #fff;
+  color: $font-color2;
   font-size: 18px;
   font-weight: 700;
   line-height: 34px;
@@ -1254,7 +1254,7 @@ preview-2
 }
 
 .project-menu li a {
-  background: #fff none repeat scroll 0 0;
+  background: $font-color2 none repeat scroll 0 0;
   border: 1px solid #444;
   border-radius: 20px;
   color: #444;
@@ -1269,9 +1269,9 @@ preview-2
 }
 
 .project-menu li a.active, .project-menu li a:hover {
-  border-color: #80241e;
-  background: #80241e;
-  color: #fff;
+  border-color: $font-color1;
+  background: $font-color1;
+  color: $font-color2;
   text-decoration: none;
 }
 
@@ -1356,7 +1356,7 @@ preview-2
 }
 
 .project-dec h4:hover {
-  color: #fff;
+  color: $font-color2;
 }
 
 .project-dec h4 {
@@ -1405,7 +1405,7 @@ preview-2
   border: 1px solid #ccc;
   text-align: center;
   transition: all 0.4s ease 0s;
-  background: #fff;
+  background: $font-color2;
 }
 
 .pri_table_list h3 span {
@@ -1437,13 +1437,13 @@ preview-2
   position: absolute;
   right: 50px;
   top: 12px;
-  color: #80241e;
+  color: $font-color1;
 }
 
 .pri_table_list button {
   background: #444 none repeat scroll 0 0;
   border: 1px solid #444;
-  color: #fff;
+  color: $font-color2;
   margin-bottom: 25px;
   padding: 10px 35px;
   text-transform: uppercase;
@@ -1474,8 +1474,8 @@ preview-2
 }
 
 .saleon {
-  background: #80241e none repeat scroll 0 0;
-  color: #fff;
+  background: $font-color1 none repeat scroll 0 0;
+  color: $font-color2;
   font-size: 13px;
   font-weight: 700;
   left: -26px;
@@ -1491,7 +1491,7 @@ preview-2
 }
 
 .pri_table_list > button:hover {
-  background-color: #fff;
+  background-color: $font-color2;
   border: 1px solid #333;
   color: #333;
 }
@@ -1503,16 +1503,16 @@ preview-2
 }
 
 .active > button {
-  background: #80241e none repeat scroll 0 0;
-  border: 1px solid #80241e;
-  color: #fff;
+  background: $font-color1 none repeat scroll 0 0;
+  border: 1px solid $font-color1;
+  color: $font-color2;
   transition: 0.4s;
 }
 
 .active > button:hover {
   background: #333 none repeat scroll 0 0;
   border: 1px solid #333;
-  color: #fff;
+  color: $font-color2;
   transition: 0.4s;
 }
 
@@ -1543,9 +1543,9 @@ preview-2
 }
 
 .quate {
-  border: 1px dotted #fff;
+  border: 1px dotted $font-color2;
   border-radius: 50%;
-  color: #fff;
+  color: $font-color2;
   display: inline-block;
   font-size: 24px;
   height: 70px;
@@ -1554,7 +1554,7 @@ preview-2
 }
 
 .quate:hover {
-  color: #fff;
+  color: $font-color2;
 }
 
 .testi-img img {
@@ -1568,7 +1568,7 @@ preview-2
 }
 
 .testi-text p {
-  color: #fff;
+  color: $font-color2;
   font-size: 16px;
   line-height: 1.5em;
   margin: 20px 0;
@@ -1576,12 +1576,12 @@ preview-2
 }
 
 .testi-text h6 {
-  color: #fff;
+  color: $font-color2;
   font-size: 20px;
 }
 
 .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot > span {
-  background: #fff none repeat scroll 0 0;
+  background: $font-color2 none repeat scroll 0 0;
   display: inline-block;
   height: 8px;
   width: 8px;
@@ -1607,7 +1607,7 @@ preview-2
 }
 
 .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
-  background: #80241e;
+  background: $font-color1;
 }
 
 .testimonial-carousel .owl-nav,
@@ -1626,11 +1626,11 @@ preview-2
 }
 
 .testimonial-carousel .owl-dot.active {
-  background-color: #80241e !important;
+  background-color: $font-color1 !important;
 }
 
 .testi-text.text-center > h6 {
-  color: #fff;
+  color: $font-color2;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1642,7 +1642,7 @@ preview-2
 }
 
 .guest-rev > a {
-  color: #80241e;
+  color: $font-color1;
   font-size: 14px;
 }
 
@@ -1650,7 +1650,7 @@ preview-2
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #80241e none repeat scroll 0 0;
+  background: $font-color1 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1660,7 +1660,7 @@ preview-2
 }
 
 .suscribe-text h3 {
-  color: #fff;
+  color: $font-color2;
   display: inline-block;
   font-size: 20px;
   font-weight: 600;
@@ -1670,9 +1670,9 @@ preview-2
 }
 
 .sus-btn {
-  background: #fff none repeat scroll 0 0;
-  border: 2px solid #fff;
-  color: #80241e;
+  background: $font-color2 none repeat scroll 0 0;
+  border: 2px solid $font-color2;
+  color: $font-color1;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1684,9 +1684,9 @@ preview-2
 }
 
 .sus-btn:hover {
-  background: #80241e none repeat scroll 0 0;
-  border: 2px solid #fff;
-  color: #fff;
+  background: $font-color1 none repeat scroll 0 0;
+  border: 2px solid $font-color2;
+  color: $font-color2;
 }
 
 /*--------------------------------------------------------------
@@ -1740,7 +1740,7 @@ preview-2
 
 .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: $font-color2;
   background: #ed3c0d;
   text-align: center;
   padding: 15px;
@@ -1749,7 +1749,7 @@ preview-2
 
 .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: $font-color2;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1758,7 +1758,7 @@ preview-2
 
 .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: $font-color2;
   text-align: center;
   padding: 15px;
 }
@@ -1783,7 +1783,7 @@ preview-2
 }
 
 .php-email-form input::focus, .php-email-form textarea::focus {
-  background-color: #80241e;
+  background-color: $font-color1;
 }
 
 .php-email-form input {
@@ -1897,7 +1897,7 @@ preview-2
 }
 
 .blog-meta {
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px dotted $font-color2;
   padding: 10px 0;
 }
 
@@ -1912,7 +1912,7 @@ preview-2
 }
 
 .blog-content-right .comments-type > a, .blog-content-right .date-type, .blog-content-right .blog-meta span.comments-type, .blog-content-right .blog-text p {
-  color: #fff;
+  color: $font-color2;
   letter-spacing: 1px;
 }
 
@@ -1932,8 +1932,8 @@ preview-2
 }
 
 .single-blog .ready-btn:hover {
-  border: 1px solid #80241e;
-  color: #fff;
+  border: 1px solid $font-color1;
+  color: $font-color2;
 }
 
 /*--------------------------------------------------------------
@@ -1967,7 +1967,7 @@ preview-2
 }
 
 .search-option button:hover {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .left-blog h4 {
@@ -2008,9 +2008,9 @@ preview-2
 }
 
 .ready-btn {
-  border: 1px solid #fff;
+  border: 1px solid $font-color2;
   border-radius: 30px;
-  color: #fff;
+  color: $font-color2;
   cursor: pointer;
   display: inline-block;
   font-size: 17px;
@@ -2024,9 +2024,9 @@ preview-2
 }
 
 .ready-btn:hover {
-  color: #fff;
-  background: #80241e;
-  border: 1px solid #80241e;
+  color: $font-color2;
+  background: $font-color1;
+  border: 1px solid $font-color1;
   text-decoration: none;
 }
 
@@ -2044,7 +2044,7 @@ preview-2
 }
 
 .pst-content p a:hover, .left-blog ul li a:hover {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .blog-page .single-blog {
@@ -2057,7 +2057,7 @@ preview-2
 }
 
 .header-bottom h1, .header-bottom h2 {
-  color: #fff;
+  color: $font-color2;
 }
 
 .blog-tags {
@@ -2069,7 +2069,7 @@ preview-2
 }
 
 .popular-tag.left-blog ul li a:hover {
-  color: #fff;
+  color: $font-color2;
 }
 
 .popular-tag.left-side-tags.left-blog ul {
@@ -2113,7 +2113,7 @@ preview-2
 }
 
 .entry-meta span a:hover {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .post-information .entry-meta {
@@ -2134,8 +2134,8 @@ preview-2
 }
 
 .entry-content blockquote {
-  background: #fff none repeat scroll 0 0;
-  border-left: 5px solid #80241e;
+  background: $font-color2 none repeat scroll 0 0;
+  border-left: 5px solid $font-color1;
   font-size: 17.5px;
   font-style: italic;
   margin: 0 0 20px 40px;
@@ -2143,15 +2143,15 @@ preview-2
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-  background-color: #80241e;
-  border-color: #80241e;
-  color: #fff;
+  background-color: $font-color1;
+  border-color: $font-color1;
+  color: $font-color2;
   cursor: default;
   z-index: 3;
 }
 
 .social-sharing {
-  background: #fff none repeat scroll 0 0;
+  background: $font-color2 none repeat scroll 0 0;
   border: 1px solid #ccc;
   display: block;
   margin: 30px 0;
@@ -2184,8 +2184,8 @@ preview-2
 }
 
 .sharing-icon a:hover {
-  color: #80241e;
-  border: 1px solid #80241e;
+  color: $font-color1;
+  border: 1px solid $font-color1;
 }
 
 .single-blog .author-avatar {
@@ -2200,7 +2200,7 @@ preview-2
 }
 
 .author-info {
-  background: #fff none repeat scroll 0 0;
+  background: $font-color2 none repeat scroll 0 0;
   float: left;
   margin: 30px 0;
   padding: 15px;
@@ -2310,7 +2310,7 @@ span.email-notes {
 
 .comment-respond input[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #80241e;
+  border: 1px solid $font-color1;
   border-radius: 20px;
   box-shadow: none;
   color: #444;
@@ -2332,13 +2332,13 @@ span.email-notes {
 }
 
 .comments-content-wrap span a:hover {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .comment-respond input[type=submit]:hover {
-  border: 1px solid #80241e;
-  color: #fff;
-  background: #80241e;
+  border: 1px solid $font-color1;
+  color: $font-color2;
+  background: $font-color1;
 }
 
 .single-blog .blog-pagination {
@@ -2381,7 +2381,7 @@ span.email-notes {
 }
 
 .footer-logo h2 span {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .footer-icons ul li {
@@ -2412,7 +2412,7 @@ span.email-notes {
 }
 
 .footer-contacts p span {
-  color: #80241e;
+  color: $font-color1;
   font-weight: 700;
 }
 
@@ -2426,9 +2426,9 @@ span.email-notes {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #80241e;
-  border: 1px solid #80241e;
-  color: #fff;
+  background: $font-color1;
+  border: 1px solid $font-color1;
+  color: $font-color2;
 }
 
 .popular-tag ul li a {
@@ -2455,7 +2455,7 @@ span.email-notes {
 
 .copyright-text a:hover {
   text-decoration: underline;
-  color: #80241e;
+  color: $font-color1;
 }
 
 .copyright-text a {
@@ -2468,7 +2468,7 @@ span.email-notes {
 }
 
 .copyright a, .credits a {
-  color: #80241e;
+  color: $font-color1;
 }
 
 .credits {
