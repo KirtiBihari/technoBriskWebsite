@@ -17,11 +17,11 @@ const Header = (props) => {
       
             <nav className="nav-menu d-none d-lg-block">
               <ul>
-                <li className="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                {/* <li className="active"><a href="#home">Home</a></li> */}
+                <li><a href="#about">Company</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#process">Process</a></li>
-                <li><a href="#team">Team</a></li>
+                {/* <li><a href="#team">Team</a></li> */}
                 {/* <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#blog">Blog</a></li> */}
                 {/* <li className="drop-down"><a href="">Drop Down</a>
